@@ -7,6 +7,8 @@ These shaders are provided AS IS, I will not provide any support for this, you h
 
 Functionality has been split in multiple subgraphs so you can easily create your own shader depending on the features you want, the packing you are using in your textures. 
 
+Subgraphs
+---------------------------
 The provided subgraphs are : 
 - SG_6_points_lighting : Computes the lighting for smoke using 2 textures containing the up, down, left, right, front and back lightings. This support multiple dynamic lights (directional, point, spot ...) as well as shadows.
 - SG_DepthFade : Soft sprites depth fade function including an offset to support depth map exported from Embergen 
@@ -15,6 +17,12 @@ The provided subgraphs are :
 - SG_Orientation : Subgraph including 3 other subgraphs to automatically align the quad as either : camera facing sprite, camera facing sprite using only rotation around Y axis, regular non facing quad. This is working only on meshes that have their faces facing negative Z axis, like the unity Quad.
 - SG_Sample_Flipbook : Access a texture using its UVs, very basic
 - SG_Sample_Flipbook_with_motion_vector : Access a texture using its UVs and a motion vector texture, so it can smoothly interpolate the image between frames. This requires access to motion vector texture and twice the texture you want to display, this is not free, but worth it if you want smoother spritesheets animations. 
+
+
+Shaders and materials
+---------------------------
+![alt text](Doc/Graph1.JPG) 
+![alt text](Doc/Graph2.JPG) 
 
 On top of that, there are some typical shaders using these subgraphs : 
 - Shader_Emissive_Flames : Using only flames export, supporting depthfade, auto animation, sprite orientation ...
