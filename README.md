@@ -1,4 +1,4 @@
-# Unity-URPSpritesheets
+# Unity-URP Spritesheets shaders
 ===============================================================
 
 This is a repository that contains shader graph shaders to display spritesheets exported from Embergen.
