@@ -5,7 +5,7 @@ This is a repository that contains shader graph shaders to display spritesheets 
 
 These shaders are provided AS IS, I will not provide any support for this, you have the code, you have some samples and it's free.
 
-Functionality has been split in multiple subgraphs so you can easily create your own shader depending on the features you want, the packing you are using in your textures. 
+Functionality has been split in multiple subgraphs so you can easily create your own shader depending on the features you want and the packing you are using in your textures. 
 
 Subgraphs
 ---------------------------
