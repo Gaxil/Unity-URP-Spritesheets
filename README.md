@@ -31,6 +31,9 @@ On top of that, there are some typical shaders using these subgraphs :
 - Shader_Lit_Smoke_and_Flames : the most feature crammed one, smoke, emissive, 6 points lighting, supporting depthfade, auto animation, sprite orientation ...
 - Shader_recoloring_flames : uses flames and temperature export to recolor flames on the go
 
+And a sample scene with many different scenarios
+![alt text](Doc/Materials.GIF) 
+
 Can I use this freely?
 ----------------------
 Feel free to use the shaders and provided resources in your projects, improve it, modify it ... 
