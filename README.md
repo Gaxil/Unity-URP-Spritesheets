@@ -34,6 +34,9 @@ On top of that, there are some typical shaders using these subgraphs :
 And a sample scene with many different scenarios
 ![alt text](Doc/Materials.gif) 
 
+You can navigate in the demo scene using left CTRL & left ALT to go back and forth in the samples. The camera can be moved using the cursor keys and reset with left Shift
+It's also working with a game pad. 
+
 Can I use this freely?
 ----------------------
 Feel free to use the shaders and provided resources in your projects, improve it, modify it ... 
