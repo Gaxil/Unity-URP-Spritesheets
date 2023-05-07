@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mat_Sprite_Looping_Lit_Smoke_Target_Camera
+  m_Shader: {fileID: -6465566751694194690, guid: 6ea5ae8d7ff25f946aa2a9ec23753374, type: 3}
+  m_ValidKeywords:
+  - _FRAME_ANIMATION_AUTOMATIC
+  - _SPRITE_ORIENTATION_FACING_CAMERA
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_1c9f3b45a66a4d88b4ad4951cbe4ff54:
+        m_Texture: {fileID: 2800000, guid: 9d20bfdc45ea5024dbd58591946550a8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_26bd4562dd2e4223b19813909ed859b0:
+        m_Texture: {fileID: 2800000, guid: 1f3eb58e436757a43b364a61b3d10faf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_6174cc37a8e24a6ca104731d11d594ed:
+        m_Texture: {fileID: 2800000, guid: fa298bb2432919b4d810b76214faa3ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_e9703806004f4752934454a6ee595797:
+        m_Texture: {fileID: 2800000, guid: 1f03049f2a63c9a4fafcc37c1750f3a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Motion_vector:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_0671ea344b044e029790543672a6a90f: 57.8
+    - Vector1_392a4b66f32049d9ab1084f3a8c71a0a: 8
+    - Vector1_66aedb6b3afb41b8b678ace055c26a53: 1
+    - Vector1_70743c15ff3e490cb232c8512c705597: 0.25
+    - Vector1_7332ad55cfab43789c61d0c6f0da22d5: 1
+    - Vector1_d1ebd2a9a3e148b987344089daf08854: 8
+    - _BLEND_WITH_VERTEX_COLOR: 0
+    - _Depth_fade_distance: 0.15
+    - _Depth_shadow_multiplier: 0
+    - _FRAME_ANIMATION: 0
+    - _Frame: 0
+    - _Motion_vector_intensity: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _SPRITE_ORIENTATION: 1
+    - _Shadow_offset_intensity: 1
+    - _Shadows_strength: 1
+    - _USE_MOTION_VECTOR: 0
+    m_Colors:
+    - Color_e6caed8b54cd469fa5d7c358c90c19cc: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 0}
+    - Color_ffc6bd86dbbb43d4880a02de7bb44ede: {r: 1, g: 1, b: 1, a: 0}
+    - Vector3_330d98c596dd4e96a43269c7b400fae3: {r: 1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &1106583349470888352
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

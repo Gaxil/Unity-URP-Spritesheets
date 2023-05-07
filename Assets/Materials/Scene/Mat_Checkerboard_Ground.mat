@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mat_Checkerboard_Ground
+  m_Shader: {fileID: -6465566751694194690, guid: 9fceb19f4bfacbd47a18ef01aeaf6894, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Boolean_c775e0b27550471e9a3609e60b443ff7: 0
+    - Vector1_643af3997f4b4cbc9bc9809b05746cf7: 1
+    - Vector1_65165ec21c854b6bab7f6c128aba0e3a: 0
+    - Vector1_8bfdb53b9e0d41e392e27c8dca589f8a: 1
+    - Vector1_a734c63f97cd473e886c9734cf3b86a1: -1.6
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - Color_328085e5d1f6444cb324129f4ea41ee9: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 0}
+    - Color_e396ba76d5aa44babdb438cbc08df95d: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &2580914770295496188
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

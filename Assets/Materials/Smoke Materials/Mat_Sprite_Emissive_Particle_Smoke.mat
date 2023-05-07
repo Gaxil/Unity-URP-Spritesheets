@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mat_Sprite_Emissive_Particle_Smoke
+  m_Shader: {fileID: -6465566751694194690, guid: 7e085418a7234814f9cb19e85d1c982c, type: 3}
+  m_ValidKeywords:
+  - _BLEND_WITH_VERTEX_COLOR
+  - _FRAME_ANIMATION_PARTICLES
+  - _SPRITE_ORIENTATION_REGULAR
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_1c9f3b45a66a4d88b4ad4951cbe4ff54:
+        m_Texture: {fileID: 2800000, guid: 7b7362109292a1b45a5fa8614c7e5a3c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_26bd4562dd2e4223b19813909ed859b0:
+        m_Texture: {fileID: 2800000, guid: 3154f11ac227ed24e8cc5de4790db80a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_6174cc37a8e24a6ca104731d11d594ed:
+        m_Texture: {fileID: 2800000, guid: ccec62975a989c64eade2e876d7900e3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_e9703806004f4752934454a6ee595797:
+        m_Texture: {fileID: 2800000, guid: 43deeb863cc23b34a8981903f46d241c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Motion_vector:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_0671ea344b044e029790543672a6a90f: 14.4
+    - Vector1_392a4b66f32049d9ab1084f3a8c71a0a: 8
+    - Vector1_70743c15ff3e490cb232c8512c705597: 0.316
+    - Vector1_d1ebd2a9a3e148b987344089daf08854: 8
+    - _BLEND_WITH_VERTEX_COLOR: 1
+    - _Depth_fade_distance: 0.161
+    - _FRAME_ANIMATION: 2
+    - _Frame: 0
+    - _Motion_vector_intensity: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _SPRITE_ORIENTATION: 0
+    - _Shadows_strength: 0
+    - _USE_MOTION_VECTOR: 0
+    m_Colors:
+    - Color_e6caed8b54cd469fa5d7c358c90c19cc: {r: 1.345086, g: 1.345086, b: 1.345086, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &5477081629475181333
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
